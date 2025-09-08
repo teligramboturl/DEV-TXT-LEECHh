@@ -589,7 +589,7 @@ async def txt_handler(bot: Client, m: Message):
     chat_id = editable.chat.id
     timeout_duration = 3 if auto_flags.get(chat_id) else 20
 
-    await editable.edit("**1. Send A Text For Watermark\2. Send /d for no watermark & fast dwnld**")
+    await editable.edit("**1. Send A Text For Watermark\n2. Send /d for no watermark & fast dwnld**")
     try:
         inputx: Message = await bot.listen(editable.chat.id, timeout=timeout_duration)
         raw_textx = inputx.text
