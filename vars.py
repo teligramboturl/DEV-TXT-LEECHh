@@ -2,9 +2,9 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "29061977"))
-API_HASH = os.environ.get("API_HASH", "9519882b3dcb5dd995ca75247bd934ea")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "23673651"))
+API_HASH = os.environ.get("API_HASH", "f032bfa12ee46e1283f6fb23cfca5c6b")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8307502375:AAH0_nZ784i-0Hdg4d75TlpIveBMbV7ynqE")
 
 CREDIT = os.environ.get("CREDIT", "🇮🇳Jai shree Krishna🇮🇳")
 # MongoDB Configuration
@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6677821706"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "6677821706").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/Jaishree2902"
+PREMIUM_CHANNEL = "@Urluploderbot_bot"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
 
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
