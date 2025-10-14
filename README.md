@@ -2,7 +2,7 @@
   <img src="https://files.catbox.moe/fh731v.jpg" alt="PALSAB-TXT-LEECH">
 </p>
 <h1 align="center">
-  <a href="https://github.com/Dev-Thanos/DEV-TXT-LEECH">DEV-TXT-LEECH 👨‍💻</a>
+  <a href="https://github.com/Dev-Thanos/DEV-TXT-LEECH">PALSAB-TXT-LEECH 👨‍💻</a>
 </h1>
 
 ## **Main Repository**
