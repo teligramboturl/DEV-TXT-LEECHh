@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6677821706"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "6677821706").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "@Urluploderbot_bot"
+PREMIUM_CHANNEL = "@Learnskillsfree_bot"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
 
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
