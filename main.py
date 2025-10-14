@@ -185,11 +185,11 @@ photozip = 'https://envs.sh/fH.jpg/IMG20250803719.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/@G_2902")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/@Learnskillsfree_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/@G_2902")        ],
+            InlineKeyboardButton(text="🛠️ Help", url="https://@Learnskillsfree_bot")        ],
     ]
 )
 
@@ -313,10 +313,10 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/DRM_Wizardbot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [🇮🇳Jai shree Krishna 🇮🇳](https://t.me/@G_2902) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [pal sab 🦋](https://t.me/Learnskillsfree_bot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [🇮🇳Jai shree Krishna 🇮🇳](https://t.me/@G_2902) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("🇮🇳Jai shree Krishna 🇮🇳", url="https://t.me/@G_2902")
+        InlineKeyboardButton("🇮🇳pal sab 🇮🇳", url="https://t.me/@Learnskillsfree_bot")
     ],
     [
         InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ 🪔", callback_data="help"),
@@ -342,7 +342,7 @@ async def start(bot: Client, m: Message):
                 caption=f"**Mʏ ᴄᴏᴍᴍᴀɴᴅꜱ ғᴏʀ ʏᴏᴜ [{m.from_user.first_name} ](tg://settings)**\n\n{commands_list}",
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("🇮🇳Jai shree Krishna 🇮🇳", url="https://t.me/@G_2902")
+        InlineKeyboardButton("🇮🇳pal sab 🇮🇳", url="https://t.me/@Learnskillsfree_bot")
     ],
     [
         InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ 🪔", callback_data="help"),
@@ -370,11 +370,11 @@ auth_filter = filters.create(auth_check_filter)
 @bot.on_message(~auth_filter & filters.private & filters.command)
 async def unauthorized_handler(client, message: Message):
     await message.reply(
-        "<b>Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/DRM_Wizardbot)</b>\n\n"
+        "<b>Mʏ Nᴀᴍᴇ [pal sab 🦋](https://t.me/Learnskillsfree_bot)</b>\n\n"
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/@G_2902")
+            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/@Learnskillsfree_bot")
         ]])
     )
 
